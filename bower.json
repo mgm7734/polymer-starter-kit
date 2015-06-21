@@ -2,7 +2,9 @@
   "name": "polymer-starter-kit",
   "private": true,
   "dependencies": {
-    "webcomponentsjs": "~0.7.5"
+    "webcomponentsjs": "~0.7.5",
+    "basic-autosize-textarea": "basic-web-components/basic-autosize-textarea#master",
+    "polymer": "Polymer/polymer#^1.0.0"
   },
   "devDependencies": {
     "web-component-tester": "*"
