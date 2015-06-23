@@ -5,20 +5,56 @@
     <title>Mark Mendel - Home Page</title>
     <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
     <link rel="icon" sizes="192x192" href="images/goat-64x64.png">
-    
+
     <!-- will be replaced with elements/elements.vulcanized.html -->
     <link rel="import" href="elements/elements.html">
     <!-- endreplace-->
   </head>
-  <body prefix="schema: http://schema.org/">
-    <h1>
-      <span about="#me" typeof="schema:Person" property="name">
-        Mark Mendel
-      </span> - Home Page
-    </h1>
-    A work in progress...
-    <h2>Ignore This</h2>
-    Playing with web components
-    <basic-autosize-textarea></basic-autosize-textarea>
+  <body prefix="schema: http://schema.org/" class="fullbleed layout vertical">
+    <paper-drawer-panel >
+      <paper-header-panel drawer>
+        <paper-menu>
+	  <paper-item><a href="#nowhere" title="Lorum ipsum dolor sit amet">Lorem</a></paper-item>
+	  <paper-item><a href="#nowhere" title="Aliquam tincidunt mauris eu risus">Aliquam</a></paper-item>
+	  <paper-item><a href="#nowhere" title="Morbi in sem quis dui placerat ornare">Morbi</a></paper-item>
+	  <paper-item><a href="#nowhere" title="Praesent dapibus, neque id cursus faucibus">Praesent</a></paper-item>
+	  <paper-item><a href="#nowhere" title="Pellentesque fermentum dolor">Pellentesque</a></paper-item>
+
+        </paper-menu>
+      </paper-header-panel>
+      <paper-header-panel main>
+        <paper-toolbar>
+          <h1>
+            <span about="#me" typeof="schema:Person" property="name">
+              Mark Mendel
+            </span> - Home Page
+          </h1>
+        </paper-toolbar>
+        <div>
+          <section>
+            A work in progress...
+            <h2>Ignore This!</h2>
+            Playing with web components
+            <basic-autosize-textarea></basic-autosize-textarea>
+          </section>
+          <section>
+            <p>Pellentesque habitant morbi tristique senectus et netus
+              et malesuada fames ac turpis egestas. Vestibulum tortor
+              quam, feugiat vitae, ultricies eget, tempor sit amet,
+              ante. Donec eu libero sit amet quam egestas semper. Aenean
+              ultricies mi vitae est. Mauris placerat eleifend
+              leo. Quisque sit amet est et sapien ullamcorper
+              pharetra. Vestibulum erat wisi, condimentum sed, commodo
+              vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
+              tincidunt condimentum, eros ipsum rutrum orci, sagittis
+              tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+              facilisis. Ut felis. Praesent dapibus, neque id cursus
+              faucibus, tortor neque egestas augue, eu vulputate magna
+              eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt
+              quis, accumsan porttitor, facilisis luctus, metus</p>
+          </section>
+        </div>
+      </paper-header-panel>
+    </paper-drawer-panel>
   </body>
 </html>
